@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(250, 244, 236);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+flex: 1 0 auto;
+}
+
+.nav-wrapper {
+    background-color: rgb(167, 166, 166, 0.3);
+}
+
+.nav-row {
+    margin: 0;
+}
+
+.sidenav-icon {
+    margin: 10px;
+}
+
+.brand-logo {
+    margin-left: 1rem;
+}
+
+#picture-column {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#picture-and-contact {
+    max-width: 400px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+#about-me-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+#row2 {
+    height: 100%;
+    margin: 3rem 0 0 0;
+    align-items: center;
+}
+
+.parallax-container>.parallax {
+    z-index: 0;
+}
+
+.project-image {
+    width: 100%;
+}
+
+.section {
+    background-image: url("./assets/images/grey-background.jpg");
+}
+
+.project-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.project-links>a {
+    color: rgb(36, 36, 36);
+}
+
+.project-link-labels {
+    display: block;
+    margin: 0.5rem;
+}
+
+#contact-me-wrapper {
+    padding: 1rem;
+}
+
+.page-footer {
+    padding: 0;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icon {
+    margin: 10px;
+}
