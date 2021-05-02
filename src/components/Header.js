@@ -1,14 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import {} from "materialize-css";
 
 function Header() {
     return (
         <nav className="blue-grey darken-4">
             <div className="nav-wrapper">
-                <a href="./index.html" className="brand-logo">Kolton Decker</a>
+                <div className="brand-logo">
+                    <Link to="/">Kolton Decker</Link>
+                </div>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="./assets/html/portfolio.html">Portfolio</a></li>
-                    <li><a href="./assets/html/contact.html">Contact</a></li>
+                    <li>
+                    <Link to="/">About</Link>
+                    </li>
+                    <li>
+                    <Link to="/Portfolio">Portfolio</Link>
+                    </li>
+                    <li>
+                    <Link to="/Contact">Contact</Link>
+                    </li>
                 </ul>
                 <ul id="slide-out" className="sidenav">
                     <li>
@@ -25,9 +35,15 @@ function Header() {
                     </li>
                     <li><div className="divider"></div></li>
                     <li><a href="#" className="subheader">Navigation</a></li>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="./assets/html/portfolio.html">Portfolio</a></li>
-                    <li><a href="./assets/html/contact.html">Contact</a></li>
+                    <li>
+                        <Link to="/">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/Portfolio">Portfolio</Link>
+                    </li>
+                    <li>
+                        <Link to="/Contact">Contact</Link>
+                    </li>
                 </ul>
                 <a href="#" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
             </div>
