@@ -9,6 +9,9 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
+
+  // const [currentPage, setCurrentPage] = useState("About");
+
   return (
     <Router>
     <div className="App container-fluid">

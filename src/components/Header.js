@@ -1,7 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import M from "materialize-css";
 
 function Header() {
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(elems);
+    });
+
     return (
         <div>
             <nav className="blue-grey darken-4">
@@ -14,10 +21,10 @@ function Header() {
                         <Link to="/">About</Link>
                         </li>
                         <li>
-                        <Link to="/Portfolio">Portfolio</Link>
+                        <Link to="/portfolio">Portfolio</Link>
                         </li>
                         <li>
-                        <Link to="/Contact">Contact</Link>
+                        <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                     <ul id="slide-out" className="sidenav">
@@ -39,10 +46,10 @@ function Header() {
                             <Link to="/">About</Link>
                         </li>
                         <li>
-                            <Link to="/Portfolio">Portfolio</Link>
+                            <Link to="/portfolio">Portfolio</Link>
                         </li>
                         <li>
-                            <Link to="/Contact">Contact</Link>
+                            <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                     <a href="#" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>

@@ -1,7 +1,13 @@
 import React from 'react'
+import M from "materialize-css";
 
-function Parallax({props}) {
+function Parallax({props}) {    
 
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.parallax');
+        M.Parallax.init(elems);
+    });
+    
     const technologies = props.technologies;
     const half = technologies.length / 2;
     const leftColumn = technologies.slice(0, half);
@@ -11,7 +17,7 @@ function Parallax({props}) {
         <div>
             <div className="parallax-container">
                 <div className="parallax">
-                    <a href={props.deployedURL}>
+                    <a href={props.deployedURL} target="_blank" rel="noreferrer">
                         <img className="project-image" src={process.env.PUBLIC_URL + props.image} alt={props.alt} />
                     </a>
                 </div>
