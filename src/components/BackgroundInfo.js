@@ -8,7 +8,7 @@ function BackgroundInfo() {
         <div>
             <div id="about-me-container" className="col s12 m6">
                 <div id="about-me">
-                    <div className="row">
+                    <div className="row bg-info-row">
                         <div className="col l12">
                             <p className="left-align">
                                 Welcome to my website. My name is Kolton Decker and I am a full stack web
@@ -17,19 +17,19 @@ function BackgroundInfo() {
                             </p>
                         </div>
                     </div>
-                    <div id="row2" className="row">
+                    <div id="row2" className="row bg-info-row">
                         <div className="col l6">
                             <img src={KSU} alt="Kansas State University" width="80%" />
                         </div>
                         <div className="col l6">
-                            <p className="right-align">I attended and graduated from Kansas State University in 2017 with a Bachelors Degree in
+                            <p>I attended and graduated from Kansas State University in 2017 with a Bachelors Degree in
                                 Mechanical Engineering and have been working in the natural gas and power industry for the
                                 last 3 years. I currently work as a Project Manager for Panhandle Eastern Pipeline Company
                                 doing pipeline maintenance and infrastructure improvement projects.
                             </p>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row bg-info-row">
                         <div className="col l6">
                             <p className="left-align">I am scheduled to graduate KU Coding Bootcamp in May of this year and hope 
                                 to land a position as a full stack webdeveloper where I can gain hands-on industry experience 

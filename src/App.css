@@ -13,11 +13,22 @@
 
 main {
     flex: 1 0 auto;
-    margin-top: 2rem;
 }
 
 .nav-row {
     margin: 0;
+}
+
+#hamburger {
+    color: white;
+    background-color: #263238;
+    border-style: none;
+}
+
+@media only screen and (min-width: 992px) {
+    #hamburger {
+        display: none;
+    }
 }
 
 .sidenav-icon {
@@ -26,12 +37,14 @@ main {
 
 .brand-logo {
     margin-left: 2rem;
+    width:fit-content;
 }
 
 #picture-column {
     display: flex;
     align-content: center;
     justify-content: center;
+    margin-top: 2rem;
 }
 
 #picture-and-contact {
@@ -46,13 +59,24 @@ main {
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-between;
-    margin-top: 4rem;
+    margin-top: 6rem;
+}
+
+.bg-info-row {
+    margin: 30px;
 }
 
 #row2 {
     height: 100%;
     margin: 3rem 0 0 0;
     align-items: center;
+    text-align: right;
+}
+
+@media only screen and (max-width: 992px) {
+    #row2 {
+        text-align: left;
+    }
 }
 
 .parallax-container>.parallax {
@@ -84,7 +108,13 @@ main {
 }
 
 #contact-me-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     padding: 1rem;
+    margin-top: 4rem;
+    width: 50%;
+    align-content: center;
 }
 
 .page-footer {
