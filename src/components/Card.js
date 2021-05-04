@@ -1,5 +1,5 @@
 import React from 'react'
-import jessekolton from "../assets/images/jessekolton-5.jpg";
+import jesseKolton from "../assets/images/jesse-kolton.jpg";
 import professionalHeadshot from "../assets/images/professional-headshot.jpeg";
 
 function Card() {
@@ -8,7 +8,7 @@ function Card() {
             <div id="picture-column">
                 <div id="picture-and-contact" className="card z-depth-4">
                     <div className="card-image waves-effect waves-block waves-light">
-                        <img className="activator" src={jessekolton} alt="Kolton sitting at a wooden bar drinking a soda with his fiance." />
+                        <img className="activator" src={jesseKolton} alt="Kolton sitting at a wooden bar drinking a soda with his fiance." />
                     </div>
                     <div className="card-content">
                         <span className="card-title activator grey-text text-darken-4">Kolton Decker<i className="material-icons right">more_vert</i></span>

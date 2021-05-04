@@ -13,14 +13,16 @@ function App() {
     <Router>
     <div className="App container-fluid">
       <Header />
-      <Switch>
-          <Route exact path="/" component={About} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-          {/* <Route component={NoMatch} /> */}
-      </Switch>
+      <main>
+        <Switch>
+            <Route exact path="/" component={About} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
+        </Switch>
+      </main>
       <Footer />
+      
     </div>
     </Router>
   );
