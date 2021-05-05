@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Kolton-Decker-Portfolio/static/css/main.1dc8584a.chunk.css",
+    "main.js": "/Kolton-Decker-Portfolio/static/js/main.b77f9c1e.chunk.js",
+    "main.js.map": "/Kolton-Decker-Portfolio/static/js/main.b77f9c1e.chunk.js.map",
+    "runtime-main.js": "/Kolton-Decker-Portfolio/static/js/runtime-main.7b29c181.js",
+    "runtime-main.js.map": "/Kolton-Decker-Portfolio/static/js/runtime-main.7b29c181.js.map",
+    "static/js/2.03c2b662.chunk.js": "/Kolton-Decker-Portfolio/static/js/2.03c2b662.chunk.js",
+    "static/js/2.03c2b662.chunk.js.map": "/Kolton-Decker-Portfolio/static/js/2.03c2b662.chunk.js.map",
+    "index.html": "/Kolton-Decker-Portfolio/index.html",
+    "static/css/main.1dc8584a.chunk.css.map": "/Kolton-Decker-Portfolio/static/css/main.1dc8584a.chunk.css.map",
+    "static/js/2.03c2b662.chunk.js.LICENSE.txt": "/Kolton-Decker-Portfolio/static/js/2.03c2b662.chunk.js.LICENSE.txt",
+    "static/media/KU_sig_2color.a67d3d5d.png": "/Kolton-Decker-Portfolio/static/media/KU_sig_2color.a67d3d5d.png",
+    "static/media/Kansas_State_University-Logo.wine.3b870401.png": "/Kolton-Decker-Portfolio/static/media/Kansas_State_University-Logo.wine.3b870401.png",
+    "static/media/Resume-Kolton-Decker.d7d9026b.pdf": "/Kolton-Decker-Portfolio/static/media/Resume-Kolton-Decker.d7d9026b.pdf",
+    "static/media/App.css": "/Kolton-Decker-Portfolio/static/media/grey-background.8d5d884e.jpg",
+    "static/media/jesse-kolton.0416c009.jpg": "/Kolton-Decker-Portfolio/static/media/jesse-kolton.0416c009.jpg",
+    "static/media/professional-headshot.96f42ffa.jpeg": "/Kolton-Decker-Portfolio/static/media/professional-headshot.96f42ffa.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b29c181.js",
+    "static/js/2.03c2b662.chunk.js",
+    "static/css/main.1dc8584a.chunk.css",
+    "static/js/main.b77f9c1e.chunk.js"
+  ]
+}
