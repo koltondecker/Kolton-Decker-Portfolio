@@ -7,11 +7,9 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import {} from "materialize-css";
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-
-  // const [currentPage, setCurrentPage] = useState("About");
 
   return (
     <Router>
