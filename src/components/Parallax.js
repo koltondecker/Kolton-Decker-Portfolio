@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import M from "materialize-css";
 
-function Parallax({props}) {    
+function Parallax({props}) {
+    
+    // const [loadState, setLoadState] = useState("");
 
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.parallax');
-        M.Parallax.init(elems);
-    });
+    // useEffect(() => {
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.parallax');
+            console.log(elems);
+            M.Parallax.init(elems);
+        });
+    // }, [loadState]);
     
     const technologies = props.technologies;
     const half = technologies.length / 2;

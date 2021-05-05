@@ -21,6 +21,9 @@ function Header() {
                         <li>
                         <Link to="/">About</Link>
                         </li>
+                        {/* <li>
+                        <Link to="/skills">Skills</Link>
+                        </li> */}
                         <li>
                         <Link to="/portfolio">Portfolio</Link>
                         </li>
@@ -46,6 +49,9 @@ function Header() {
                         <li>
                             <Link to="/">About</Link>
                         </li>
+                        {/* <li>
+                            <Link to="/skills">Skills</Link>
+                        </li> */}
                         <li>
                             <Link to="/portfolio">Portfolio</Link>
                         </li>
